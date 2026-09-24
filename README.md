@@ -1,107 +1,30 @@
-🚀 Advanced Python Projects
+# Advanced Python Projects
 
-This repository contains practical implementations of advanced Python concepts and frameworks.
+A collection of focused Python projects exploring backend APIs, data validation, HTTP clients, and interactive application tooling.
 
-📂 Project Structure
-Advanced-Python-Projects/
-│
-├── FastAPI/       → REST API project using FastAPI
-├── Pydantic/      → Data validation using Pydantic
-├── Requests/      → HTTP requests and API consumption
-└── Streamlit/     → Interactive web app using Streamlit
-🔹 1️⃣ FastAPI Project
+## Projects
+### FastAPI
+REST API examples with JSON responses, automatic API documentation, and asynchronous patterns.
 
-A modern, fast (high-performance) web API built using FastAPI.
+### Pydantic
+Examples of data validation, typed models, custom validators, and JSON serialization.
 
-Features:
+### Requests
+Examples of GET/POST requests, JSON handling, error handling, and API integration.
 
-RESTful endpoints
+### Streamlit
+A lightweight interactive application for data presentation and user interaction.
 
-Automatic API documentation
+## Technologies
+- Python
+- FastAPI
+- Pydantic
+- Requests
+- Streamlit
 
-JSON responses
+## Purpose
+A learning and experimentation space for Python backend and application-development concepts.
 
-Async support
-
-Run the project:
-cd FastAPI
-uvicorn main:app --reload
-
-Open in browser:
-
-http://127.0.0.1:8000/docs
-🔹 2️⃣ Pydantic Project
-
-Demonstrates data validation and parsing using Pydantic.
-
-Features:
-
-Model validation
-
-Custom validators
-
-JSON serialization
-
-Type enforcement
-
-Run:
-
-cd Pydantic
-python main.py
-🔹 3️⃣ Requests Project
-
-Demonstrates API consumption using the requests library.
-
-Features:
-
-GET / POST requests
-
-JSON handling
-
-Error handling
-
-API integration
-
-Run:
-
-cd Requests
-python main.py
-🔹 4️⃣ Streamlit Project
-
-Interactive web application built using Streamlit.
-
-Features:
-
-Interactive UI
-
-Real-time updates
-
-Data display
-
-Simple deployment
-
-Run:
-
-cd Streamlit
-streamlit run app.py
-🛠 Requirements
-
-Install dependencies:
-
-pip install fastapi uvicorn pydantic requests streamlit
-📚 Technologies Used
-
-Python 3.x
-
-FastAPI
-
-Pydantic
-
-Requests
-
-Streamlit
-
-👩‍💻 Author
-
-Manar
+## Author
+Manar Degachi
 GitHub: https://github.com/manar09-code
